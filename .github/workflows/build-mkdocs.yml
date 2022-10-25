@@ -39,7 +39,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: build-mkdocs-action
-        uses: Stwissel/build-mkdocs-action@v0.0.2
+        uses: Stwissel/build-mkdocs-action@v0.0.3
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
