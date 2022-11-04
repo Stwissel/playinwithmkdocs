@@ -1,9 +1,11 @@
-site_name: My Docs
+site_name: Sensei's Test2
+theme:
+  name: material
 
-# Mermaid support - fancy diagrams
 markdown_extensions:
+  # Mermaid support - fancy diagrams
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
-          class: mermaid-experimental
+          class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
